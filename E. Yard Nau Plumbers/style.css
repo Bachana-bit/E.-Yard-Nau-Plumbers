@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #CDD5E8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #E3E9F5;
+  color: lightslategrey;
+  align-items: center;
+  padding: 7px 70px;
+  cursor: pointer;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: lightslategrey;
+}
+header nav ul .UnderLine {
+  text-decoration: underline;
+}
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 100%;
+  height: fit-content;
+  color: #2F3729;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 50%;
+  align-items: center;
+  font-size: 22px;
+}
+main .container h1 {
+  margin-bottom: 70px;
+  font-size: 65px;
+}
+main .container .imgdivs {
+  display: flex;
+  gap: 20px;
+  height: 500px;
+}
+main .container .imgdivs .Upperone {
+  margin-top: -50px;
+}
+main .container .imgdivs img {
+  width: 300px;
+  height: 400px;
+}
+main .container .Textdiv {
+  width: 480px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+main .container .Textdiv button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 35px;
+  background-color: #2F3729;
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+}
+main .container .Textdiv button:hover {
+  background-color: transparent;
+  color: #2F3729;
+  border: 1px solid #2F3729;
+}
+main .BigPhoto {
+  width: 50%;
+}
+main .BigPhoto img {
+  width: 100%;
+}
+
+.AboutDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0px;
+  height: fit-content;
+  text-align: center;
+  color: #2F3729;
+}
+.AboutDiv .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-size: 22px;
+}
+.AboutDiv .content div {
+  width: 900px;
+  text-align: center;
+}
+.AboutDiv .content button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 35px;
+  background-color: #2F3729;
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+  margin-top: 15px;
+}
+.AboutDiv .content button:hover {
+  background-color: transparent;
+  color: #2F3729;
+  border: 1px solid #2F3729;
+}
+
+.Justaphoto {
+  width: 100%;
+}
+.Justaphoto img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #CDD5E8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #E3E9F5;
+    color: lightslategrey;
+    align-items: center;
+    padding: 7px 70px;
+    cursor: pointer;
+
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+
+
+        a {
+            text-decoration: none;
+            color: lightslategrey;
+        }
+
+        .UnderLine {
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+}
+
+main {
+    width: 100%;
+    height: fit-content;
+    color: #2F3729;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 50%;
+        align-items: center;
+        font-size: 22px;
+
+        h1 {
+            margin-bottom: 70px;
+            font-size: 65px;
+        }
+
+        .imgdivs {
+            display: flex;
+            gap: 20px;
+            height: 500px;
+
+
+
+
+        }
+
+        .imgdivs .Upperone {
+            margin-top: -50px;
+        }
+
+
+        .imgdivs img {
+            width: 300px;
+            height: 400px;
+        }
+
+        .Textdiv {
+            width: 480px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+
+            button {
+                width: 150px;
+                height: 50px;
+                border: none;
+                border-radius: 35px;
+                background-color: #2F3729;
+                color: white;
+                cursor: pointer;
+                transition: 0.80s;
+
+
+            }
+
+            button:hover {
+                background-color: transparent;
+                color: #2F3729;
+                border: 1px solid #2F3729;
+            }
+        }
+    }
+
+    .BigPhoto {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.AboutDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0px;
+    height: fit-content;
+    text-align: center;
+    color: #2F3729;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        font-size: 22px;
+
+        div {
+            width: 900px;
+            text-align: center;
+
+
+        }
+
+        button {
+            width: 180px;
+            height: 50px;
+            border: none;
+            border-radius: 35px;
+            background-color: #2F3729;
+            color: white;
+            cursor: pointer;
+            transition: 0.80s;
+            margin-top: 15px;
+
+
+        }
+
+        button:hover {
+            background-color: transparent;
+            color: #2F3729;
+            border: 1px solid #2F3729;
+        }
+    }
+}
+
+
+.Justaphoto {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
